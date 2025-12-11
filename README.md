@@ -1,4 +1,4 @@
-# ## Real-Time Streaming Architecture: Orders Pipeline
+## Real-Time Streaming Architecture: Orders Pipeline
 
 A compact data engineering project that simulates an end-to-end real-time order ingestion pipeline.
 It streams synthetic e-commerce orders through **Kafka**, lands raw data into a **MinIO data lake**, and uses **Airflow** to orchestrate incremental batch loads into a **Postgres warehouse**.
