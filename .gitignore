@@ -1,0 +1,16 @@
+.idea
+# Python
+__pycache__/
+*.pyc
+
+# Airflow & Docker state
+logs/
+pgdata/
+minio-data/
+dags/__pycache__/
+airflow.db
+
+# Env files
+airflow.env
+.env
+*.env
